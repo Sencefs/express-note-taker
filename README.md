@@ -34,11 +34,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ![image](https://user-images.githubusercontent.com/100245563/176026418-f03b027c-50b2-4560-87cc-3f549b10ce7f.png)
 
-Deployment Link (Heroku)=https://express-note-taker-ss.herokuapp.com
-
-The following images show the web application's appearance and functionality: 
-
-## Getting Started
+Deployment Link (Heroku)=https://express-note-taker-ss.herokuapp.com 
 
 The application should have a `db.json` file on the back end, which will be used to store and retrieve notes using the `fs` module.
 
