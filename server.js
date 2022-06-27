@@ -5,7 +5,7 @@ const path = require('path');
 const express = require('express');
 const app = express();
 const allNotes = require('./db/db.json');
-//Linking assets
+//Linking assets (Middleware)
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
@@ -64,3 +64,4 @@ app.delete('/api/notes/:id', (req, res) => {
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
+
